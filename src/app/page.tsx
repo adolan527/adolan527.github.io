@@ -50,7 +50,7 @@ export default function Component() {
                   <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-white" style={{ color: 'rgb(204, 0, 0)' }} >
                     Welcome to my Engineering Portfolio
                   </h1>
-                  <p className="mx-auto max-w-[700px] text-white md:text-xl dark:text-black" style={{ marginTop: '15px' }}>
+                  <p className="mx-auto max-w-[700px] text-white md:text-xl" style={{ marginTop: '15px' }}>
                     I am a professional engineer with a passion for solving complex problems. Explore my projects and get
                     in touch.
                   </p>
