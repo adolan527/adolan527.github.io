@@ -163,9 +163,11 @@ export default function Component() {
             <div className="container grid items-center justify-center gap-4 px-4 md:px-6">
               <div className="space-y-3">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">My Resume</h2>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Download my resume to learn more about my experience and qualifications.
-                </p>
+                <Link href="../../public/resume.pdf">
+                  <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                    Download my resume to learn more about my experience and qualifications.
+                  </p>
+                </Link>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link
