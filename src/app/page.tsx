@@ -170,7 +170,7 @@ export default function Component() {
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link
                     className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                    href="/resume.pdf"
+                    href="https://raw.githubusercontent.com/adolan527/adolan527.github.io/main/public/resume.pdf"
                 >
                   Download Resume
                 </Link>
@@ -212,14 +212,18 @@ export default function Component() {
           </section>
         </main>
         <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Engineering Portfolio. All rights reserved.</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Austin Dolan Portfolio</p>
           <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
+            <p className="text-xs hover:underline underline-offset-4" >
               Terms of Service
-            </Link>
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
+            </p>
+            <p className="text-xs hover:underline underline-offset-4" >
               Privacy
-            </Link>
+            </p>
+            <p className="text-xs hover:underline underline-offset-4" >
+              This website was made using Vercel, v0, and Next.js.
+
+            </p>
           </nav>
         </footer>
       </div>
